@@ -1,0 +1,8 @@
+
+development:
+  adapter: postgresql
+  encoding: utf-8
+  database: product_details #cybermedia_microsite_demo
+  host: localhost
+  username: postgres
+  password: postgres

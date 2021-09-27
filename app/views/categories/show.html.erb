@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p> parent</p>
+<p>
+  <%= @category.title %>
+</p>
+<p>Descended</p>
+<% @children.each do |category| %>
+  <tr>
+    <td><%= category.title %></td>
+  </tr>
+<% end %>
+
