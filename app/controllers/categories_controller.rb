@@ -5,7 +5,6 @@ class CategoriesController < ApplicationController
   def index
     #test branch
     # new
-    # new1
     @categories = Category.all
   end
   
