@@ -3,6 +3,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories or /categories.json
   def index
+    #test branch
     @categories = Category.all
   end
   
